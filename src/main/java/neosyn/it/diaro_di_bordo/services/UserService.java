@@ -19,7 +19,7 @@ public class UserService {
 
         // TODO: in teora, questo utente dovrebbe essere recuperato dalla repository
         UserDTO user = new UserDTO(id, "", "", null);
-        user.setUsername("Mocked Name");
+        user.setUsername("John Doe");
         user.setPassword("the most secure password in the world");
         user.setRole(null);
         return user;
