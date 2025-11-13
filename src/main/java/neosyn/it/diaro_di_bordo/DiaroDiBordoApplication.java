@@ -9,5 +9,4 @@ public class DiaroDiBordoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DiaroDiBordoApplication.class, args);
 	}
-    //test
 }

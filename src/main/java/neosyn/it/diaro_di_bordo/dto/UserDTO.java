@@ -1,4 +1,4 @@
-package neosyn.it.diaro_di_bordo.model.dto;
+package neosyn.it.diaro_di_bordo.dto;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
