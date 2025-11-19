@@ -1,19 +1,25 @@
 package neosyn.it.diaro_di_bordo.model.dto;
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
+//import lombok.AccessLevel;
+//import lombok.Setter;
+
+import neosyn.it.diaro_di_bordo.model.enums.Roles;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserDTO {
-    @Setter(AccessLevel.PACKAGE)
+    // @Setter(AccessLevel.PROTECTED) // removed due to issues in initialization,
+    // left for "teaching"
     private Long id;
     private String username;
     private String password;
-    private Object role;
+    private Roles role;
 
+    public UserDTO(Long id) {
+        this.id = id;
+    }
 }
