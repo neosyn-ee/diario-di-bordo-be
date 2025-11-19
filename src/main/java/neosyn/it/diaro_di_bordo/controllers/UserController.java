@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import jakarta.websocket.server.PathParam;
-import neosyn.it.diaro_di_bordo.model.dto.UserDTO;
-import neosyn.it.diaro_di_bordo.services.UserService;
+import neosyn.it.diaro_di_bordo.dto.UserDTO;
+import neosyn.it.diaro_di_bordo.service.UserService;
 
 @Controller("user")
 public class UserController {

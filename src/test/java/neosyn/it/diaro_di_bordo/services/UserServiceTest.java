@@ -1,5 +1,7 @@
 package neosyn.it.diaro_di_bordo.services;
-import neosyn.it.diaro_di_bordo.model.dto.UserDTO;
+
+import neosyn.it.diaro_di_bordo.dto.UserDTO;
+import neosyn.it.diaro_di_bordo.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
